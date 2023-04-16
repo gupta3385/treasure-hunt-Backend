@@ -11,7 +11,7 @@
   "keywords": [
     "thunt"
   ],
-  "author": "Adarsh",
+  "author": "Himanshu",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.0",
