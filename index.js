@@ -19,7 +19,13 @@ mongoose
     .catch((err)=>console.log("DB Error => ", err));
 
 // middleware
-app.use(cors({origin:["http://localhost:3000","https://treasure-hunt-hb2u.onrender.com/"]}));
+//origin:["http://localhost:3000","https://treasure-hunt-hb2u.onrender.com/"]
+app.use(cors(
+
+    {
+        origin:["http://localhost:3000","https://treasure-hunt-hb2u.onrender.com"]
+    }
+));
 app.use(morgan("dev"));
 app.use(express.json());
 
