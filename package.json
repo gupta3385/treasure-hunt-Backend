@@ -1,6 +1,7 @@
 {
   "name": "server",
   "version": "1.0.0",
+  "proxy":"https://treasure-hunt-hb2u.onrender.com",
   "description": "Treasure Hunt",
   "main": "index.js",
   "type": "module",
